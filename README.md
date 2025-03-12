@@ -8,6 +8,7 @@ The **PixelCanvas Image Color Converter** is an online tool that converts the co
 - Automatic conversion of an image's colors to match the **pixelcanvas.io** color palette.
 - Supports image formats: JPEG, PNG, JPG, WEBP.
 - Simple interface for uploading an image and viewing its converted version with the site’s colors.
+- 3 languages ​​are supported (English, Polish and French) *i will add more*
 
 ## Technologies Used
 
