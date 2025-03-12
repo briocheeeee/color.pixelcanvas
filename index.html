@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirection...</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const userLang = navigator.language || navigator.userLanguage;
+        let langCode = userLang.split("-")[0];
+
+        const supportedLanguages = ["fr", "en", "pl"];
+        if (!supportedLanguages.includes(langCode)) langCode = "en"; // Par défaut en anglais
+
+        window.location.href = `/${langCode}/index.html`;
+      });
+    </script>
+  </head>
+  <body>
+    <p>Redirection...</p>
+  </body>
+</html>

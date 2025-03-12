@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertisseur de Couleurs</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>Convertisseur de Couleurs 🎨</h2>
+    <div id="upload-container">
+      <input type="file" id="imageLoader" accept="image/*" />
+      <label for="imageLoader">📂 Choisir une image</label>
+    </div>
+    <div id="canvas-container">
+      <canvas id="canvas"></canvas>
+    </div>
+    <button id="downloadBtn">📥 Télécharger</button>
+    <div class="glow-circle" id="glow-left"></div>
+    <div class="glow-circle" id="glow-right"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
